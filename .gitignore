@@ -1,0 +1,33 @@
+# Environnement virtuel
+venv/
+env/
+ENV/
+
+# Fichiers de logs
+*.log
+
+# Dossiers __pycache__
+__pycache__/
+**/__pycache__/
+
+# Résultats générés
+projet_translatioon/results/
+
+# Données sensibles ou lourdes
+projet_translatioon/data/
+
+# Fichiers CSV de données brutes ou intermédiaires (optionnel, à ajuster)
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE et systèmes d’exploitation
+.vscode/
+*.swp
+.DS_Store
+
+# Fichiers temporaires Python
+*.pyc
+*.pyo
+*.pyd
